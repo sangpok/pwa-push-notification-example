@@ -73,6 +73,8 @@ const createNotificationItem = (payload: MessagePayload) => {
   const options: NotificationOptions['data'] = {
     body,
     image,
+    tag: 'renotify',
+    renotify: true,
     actions: clickActionArray.map(createActionItem),
     // icon: '/firebase-logo.png', // 루트 경로 기준으로 접근
   };

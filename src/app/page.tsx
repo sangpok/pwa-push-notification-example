@@ -14,8 +14,8 @@ export default async function Home() {
     }
 
     await sendFCMNotification({
-      title: '안녕',
-      body: '반갑다야',
+      title: '🎉 새로운 알림이 도착했어요!',
+      body: '김주현님께서 회원님을 구독하셨습니다.',
       image:
         'https://velog.velcdn.com/images/sangpok/profile/617ed7e6-c276-402f-b01b-444aae69e053/image.png',
       clickActions: ['안녕', '방가'],
